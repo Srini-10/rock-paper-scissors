@@ -12,10 +12,17 @@ const Footer = () => {
       <footer className="footer">
         <div class="attribution">
           Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-            Frontend Mentor
+          <a href="https://tuneup.in" className="TT" target="_blank">
+            TuneUp Technologies
+          </a>{" "}
+          Coded by{" "}
+          <a
+            href="https://github.com/Sairam-Jeeva"
+            className="TT"
+            target="_blank"
+          >
+            Sairam Senthil
           </a>
-          . Coded by <a href="https://youtube.com/codebucks" target="_blank">CodeBucks</a>.
         </div>
         <button className="rules" onClick={toggle}>
           Rules
